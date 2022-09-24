@@ -1,13 +1,14 @@
 package com.example.animateviewpager
 
 import android.view.View
+import androidx.viewpager.widget.ViewPager
 import androidx.viewpager2.widget.ViewPager2
 
 /**
  * Base transformer for all transitions.
  * Works fore both Viewpager and ViewPager2
  */
-abstract class BaseTransformer : ViewPager2.PageTransformer {
+abstract class BaseTransformer : ViewPager2.PageTransformer,ViewPager.PageTransformer {
     protected open val isPagingEnabled: Boolean
         get() = false
 
