@@ -47,7 +47,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ShubhamGarg2001'
                 artifactId = 'AnimateViewpager'
-                version = '1.2.0'
+                version = '1.4.0'
             }
         }
     }
