@@ -7,6 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LibraryTester.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.iml" filepath="$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.main.iml" filepath="$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viewPagerAnimations/LibraryTester.viewPagerAnimations.unitTest.iml" />
     </modules>
   </component>
 </project>
