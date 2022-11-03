@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/cubeout_viewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/cubein_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cubeout_viewPager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/rotatedown_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cubein_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/rotateup_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/rotatedown_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/zoomin_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/rotateup_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/zoomout_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/zoomin_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/depthpage_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/zoomout_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/see_one_side_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/see_both_side_viewpager" />
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/see_one_side_viewpager_more"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/see_one_side_viewpager" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/see_both_side_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/depthpage_viewpager" />
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/background_to_foreground_viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/see_one_side_viewpager_more" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/carmedia_type_view_pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/background_to_foreground_viewpager" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

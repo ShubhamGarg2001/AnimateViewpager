@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewpager_next_item_visible">23dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">15dp</dimen>
+    <dimen name="viewpager_next_item_visible_tittle_carousel">15dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin_tittle_carousel">25dp</dimen>
+    <dimen name="dimen_10sp">10sp</dimen>
+    <dimen name="viewpager_next_item_visible_two">60dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin_two">120dp</dimen>
+</resources>
