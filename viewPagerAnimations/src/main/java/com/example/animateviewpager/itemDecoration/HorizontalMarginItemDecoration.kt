@@ -1,11 +1,10 @@
-package com.example.librarytester
+package com.example.animateviewpager.itemDecoration
 
 import android.content.Context
 import android.graphics.Rect
 import android.view.View
 import androidx.annotation.DimenRes
 import androidx.recyclerview.widget.RecyclerView
-
 
 class HorizontalMarginItemDecoration(context: Context, @DimenRes horizontalMarginInDp: Int) :
     RecyclerView.ItemDecoration() {

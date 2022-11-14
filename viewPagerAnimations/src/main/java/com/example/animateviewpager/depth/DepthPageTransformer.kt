@@ -1,6 +1,7 @@
-package com.example.animateviewpager
+package com.example.animateviewpager.depth
 
 import android.view.View
+import com.example.animateviewpager.base.BaseTransformer
 import kotlin.math.abs
 
 class DepthPageTransformer : BaseTransformer() {

@@ -1,6 +1,7 @@
-package com.example.animateviewpager
+package com.example.animateviewpager.background
 
 import android.view.View
+import com.example.animateviewpager.base.BaseTransformer
 import kotlin.math.abs
 
 class BackgroundToForegroundTransformer : BaseTransformer() {

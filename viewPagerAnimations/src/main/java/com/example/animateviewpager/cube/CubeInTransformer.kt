@@ -1,6 +1,7 @@
-package com.example.animateviewpager
+package com.example.animateviewpager.cube
 
 import android.view.View
+import com.example.animateviewpager.base.BaseTransformer
 
 open class CubeInTransformer : BaseTransformer() {
 

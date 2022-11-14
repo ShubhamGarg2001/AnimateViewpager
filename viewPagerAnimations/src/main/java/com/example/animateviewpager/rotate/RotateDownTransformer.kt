@@ -1,24 +1,25 @@
-package com.example.animateviewpager
+package com.example.animateviewpager.rotate
 
 import android.view.View
+import com.example.animateviewpager.base.BaseTransformer
 
-class RotateUpTransformer : BaseTransformer() {
+open class RotateDownTransformer : BaseTransformer() {
 
     override val isPagingEnabled: Boolean
         get() = true
 
     override fun onTransform(page: View, position: Float) {
         val width = page.width.toFloat()
+        val height = page.height.toFloat()
         val rotation = ROT_MOD * position
 
         page.pivotX = width * 0.5f
-        page.pivotY = 0f
-        page.translationX = 0f
+        page.pivotY = height
         page.rotation = rotation
     }
 
     companion object {
-        private const val ROT_MOD = -15f
+        private const val ROT_MOD = 18.75f
     }
 
 }

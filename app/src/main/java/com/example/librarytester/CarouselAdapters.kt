@@ -5,8 +5,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.example.librarytester.databinding.ItemRecyclerBinding
 import com.example.librarytester.databinding.ItemRecyclerCarMediaBinding
 
 class CarouselAdapters(val context: Context) :
@@ -25,8 +23,7 @@ class CarouselAdapters(val context: Context) :
         holder: CarouselAdapterViewHolder,
         position: Int
     ) {
-
-
+//No data to bind
     }
 
     override fun getItemCount(): Int {

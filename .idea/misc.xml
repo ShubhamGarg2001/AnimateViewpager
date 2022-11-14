@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16857899382171226" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_recycler.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/item_recycler_car_media.xml" value="0.10203094482421876" />
       </map>

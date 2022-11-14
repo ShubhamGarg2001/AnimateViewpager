@@ -1,4 +1,4 @@
-package com.example.animateviewpager
+package com.example.animateviewpager.base
 
 import android.view.View
 import androidx.viewpager.widget.ViewPager
@@ -58,7 +58,9 @@ abstract class BaseTransformer : ViewPager2.PageTransformer,ViewPager.PageTransf
         }
     }
 
-    protected open fun onPostTransform(page: View, position: Float) {}
+    protected open fun onPostTransform(page: View, position: Float) {
+        //nothing here
+    }
 
     companion object {
         @JvmStatic
